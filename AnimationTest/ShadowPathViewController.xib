@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShadowPathViewController">
+            <connections>
+                <outlet property="layerView1" destination="uMQ-qN-xID" id="NFJ-hb-Wfy"/>
+                <outlet property="layerView2" destination="Fta-8M-S7i" id="2ai-Vl-gK7"/>
+                <outlet property="layerView3" destination="30W-RR-dPd" id="O0Z-Ll-tKU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uMQ-qN-xID">
+                    <rect key="frame" x="149" y="80" width="77" height="55"/>
+                    <color key="backgroundColor" red="1" green="0.31764705879999999" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fta-8M-S7i">
+                    <rect key="frame" x="149" y="226" width="77" height="72"/>
+                    <color key="backgroundColor" red="1" green="0.31764705879999999" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="30W-RR-dPd">
+                    <rect key="frame" x="117" y="391" width="141" height="103"/>
+                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uMQ-qN-xID" firstAttribute="leading" secondItem="Fta-8M-S7i" secondAttribute="leading" id="9FY-QC-rCn"/>
+                <constraint firstItem="30W-RR-dPd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="117" id="Ean-7v-wdl"/>
+                <constraint firstItem="Fta-8M-S7i" firstAttribute="centerX" secondItem="30W-RR-dPd" secondAttribute="centerX" id="Em9-iZ-ilU"/>
+                <constraint firstItem="uMQ-qN-xID" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="149" id="Fyp-7u-WHD"/>
+                <constraint firstAttribute="bottom" secondItem="30W-RR-dPd" secondAttribute="bottom" constant="173" id="GCN-SG-gAa"/>
+                <constraint firstItem="uMQ-qN-xID" firstAttribute="trailing" secondItem="Fta-8M-S7i" secondAttribute="trailing" id="JNM-Hq-bV1"/>
+                <constraint firstItem="30W-RR-dPd" firstAttribute="top" secondItem="Fta-8M-S7i" secondAttribute="bottom" constant="93" id="S4D-qs-qZ6"/>
+                <constraint firstItem="uMQ-qN-xID" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="UIH-w5-Wcn"/>
+                <constraint firstItem="30W-RR-dPd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="391" id="aAs-Hi-kAj"/>
+                <constraint firstItem="Fta-8M-S7i" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="226" id="dKX-4q-FxE"/>
+                <constraint firstItem="uMQ-qN-xID" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rPB-pV-VHB"/>
+                <constraint firstItem="Fta-8M-S7i" firstAttribute="top" secondItem="uMQ-qN-xID" secondAttribute="bottom" constant="91" id="yhg-ig-4uK"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="304.5" y="260.5"/>
+        </view>
+    </objects>
+</document>
